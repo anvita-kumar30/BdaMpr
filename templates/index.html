@@ -1,0 +1,87 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spam Email Detection</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <nav><h1>Spam Email Detection</h1></nav>
+
+    <div class="container">
+      <form id="emailForm">
+        <label for="email">Enter Email Content:</label><br />
+        <textarea
+          id="email"
+          name="email"
+          placeholder="Enter email text here..."
+        ></textarea
+        ><br />
+        <button type="submit">Send Email</button>
+      </form>
+
+      <div id="result-section">
+        <div id="normal-emails">
+          <h2>Normal Emails</h2>
+          <ul id="normal-list"></ul>
+        </div>
+
+        <div id="spam-emails">
+          <h2>Spam Emails</h2>
+          <ul id="spam-list"></ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spam Email Detection</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <nav><h1>Spam Email Detection</h1></nav>
+
+    <div class="container">
+      <form id="emailForm">
+        <label for="email">Enter Email Content:</label><br />
+        <textarea
+          id="email"
+          name="email"
+          placeholder="Enter email text here..."
+        ></textarea
+        ><br />
+        <button type="submit">Send Email</button>
+        <h2 style="margin-top: 30px">Result</h2>
+        <p id="email-section"></p>
+        <p id="word-count">Total Words: 0</p>
+      </form>
+      <div id="result-section">
+        <div id="normal-emails">
+          <h2>Normal Emails</h2>
+          <ul id="normal-list"></ul>
+        </div>
+
+        <div id="spam-emails">
+          <h2>Spam Emails</h2>
+          <ul id="spam-list"></ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>

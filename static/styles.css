@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ecf3f1, #62d3d3);
+    
+}
+nav {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+h1, h2 {
+    margin: 0px;
+    color: rgba(9, 8, 72, 0.752);
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.371);
+}   
+textarea {
+    width: 400px;
+    height: 150px;
+    background: inherit;
+    padding: 10px;
+}
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #1a1864;
+    color: rgba(252, 252, 255, 0.752);
+    border: none;
+    cursor: pointer;
+    width: 100px;
+}
+#result-section {
+    width: 700px;
+    height: auto;
+    padding: 20px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+#normal-emails, #spam-emails {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 20px;
+    min-height: 200px;
+    background-color:  rgba(255, 255, 255, 0.442);
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#emailForm{
+    height: 50vh;
+    background-color:  rgba(255, 255, 255, 0.43);
+    margin: 50px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    }
+.container{
+    display: flex;
+    flex-direction: row;
+}
+label{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    color: rgba(9, 8, 72, 0.752);
+}
+.line{
+    height: 0.5px;
+    width: 690px;
+    background-color: #090451;
+    margin-top: 7px;
+}
+li {
+    background-color:  rgb(255, 255, 255);
+    margin: 10px;
+    margin-right: 20px;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    color: rgba(9, 8, 72, 0.752);
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+#email-section{
+    display: none;
+}
